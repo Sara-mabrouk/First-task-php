@@ -4,17 +4,35 @@
 // Swap two numbers without using a temporary variable.
 // output : $x=15 , $s=5;
 
-            $x=5;
-            $s=15;
+//             $x=5;
+//             $s=15;
 
-            $x=$x+$s;
-            $s=$x-$s;
-            $x=$x-$s;
+//             $x=$x+$s;
+//             $s=$x-$s;
+//             $x=$x-$s;
 
-echo"value of x: $x </br>";
+// echo"value of x: $x </br>";
+// // echo "</br>";
+// echo"value of s: $s";
 // echo "</br>";
-echo"value of s: $s";
-echo "</br>";
+
+
+
+                $FirstNumber=5;
+                $SecNumber=15;
+
+                $FirstNumber=$FirstNumber+$SecNumber;
+                $SecNumber=$FirstNumber-$SecNumber;
+                $FirstNumber=$FirstNumber-$SecNumber;
+
+
+
+                echo"value of FirstNumber :  $FirstNumber </br>";
+                // echo "</br>";
+                echo"value of SecNumber:   $SecNumber";
+                echo "</br>";
+
+
 // "</br>";
 // "</br>";
 // "</br>";
