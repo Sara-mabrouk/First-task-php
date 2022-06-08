@@ -9,6 +9,24 @@
 // Output should be:
 // [a,b,c,x,z,v]
 
+$input=[
+    0 => [0=>'a' , 1=>'b' ,  2=>'c'] ,
+    1 => [0=>'x' , 1=>'b' , 2=>'a'],
+    2 => [0=>'z' , 1=>'z' , 2=>'v']
+];
+$result = [];
+foreach ( $input as $key =>$value) {
+    foreach ($value as $subkey =>$subvalue){
+        if (!in_array($subvalue,$result))
+        $result []=$subvalue;
+    } 
+}
+echo "</br>";
+
+print_r($result);
+echo "</br>";
+
+
 
 
 // // 2 - Create a form with the following inputs (name, email, linkedin url) Validate inputs then return message to user . 
